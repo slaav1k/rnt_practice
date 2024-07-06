@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a, li, button {
+	cursor: pointer;
+}
+
+li {
+	list-style-type: none;
+}
+
+.dark {
+	background: #4a514a;
+}
+
+.white {
+	background: #f0f0f0;
+	color: black;
+}
+
+.s-label {
+	margin-left: 1%;
+    font-size: 130%;
+}
+
+.s-header {
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+	position: absolute;
+	margin: auto;
+	padding: 0;
+	top: 5%; left: 0; right: 0;
+	width: 80%;
+	height:70%;
+	border: 0;
+	box-shadow: 0 0 25px 5px #ccc;	
+	color: white;
+	min-height: 460px;
+	min-width: 770px;
+	max-width: 1140px;
+}
+
+.header, .center, .footer, .left, .right, .middle {
+	position: absolute;
+	margin: auto;
+}
+
+.header {
+	margin: 0 1% 0 1%;
+	border-bottom: 1px solid #ccc;
+	top: 0; left: 0; right: 0;
+	height: 10%;
+}
+
+.center {
+	top: 12%; left: 0; right: 0; bottom: 10%;
+}
+
+.left {
+	top: 12%; left: 0; bottom: 10%;
+	padding: 1%;
+}
+
+.right {
+	top: 12%; right: 0; bottom: 10%;
+	padding: 1%;
+}
+
+.footer {
+	left: 0; right: 0; bottom: 0;
+	height: 10%;
+	margin: 0 1% 0 1%;
+	border-top: 1px solid #ccc;
+}
+
+.caption {
+	text-align: center;
+}
+
+.dialog-group a {
+	border-radius: 0;
+	text-align: left;
+}
+
+.dialog-group .btn {
+  	margin: 1% 0 0 0;
+}
+
+.btn-green {
+	background-color: #5C9337;
+}
+
+.btn-dialog {
+	background-color: #5B9BD5;
+}
+
+.btn-warn {
+	background-color: #CA4848;
+}
+
+.fr {
+	float: right;
+}
+
+#map {
+	width: 100%;
+	height: 100%;
+	padding: 1%;
+	overflow-y: auto;
+	box-sizing: border-box;
+}
+
+.btn-start, .btn-kill {
+	margin: 0 5% 0 5%;
+}
+
+.tab-row {
+	width: 100%;
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.tab-row:last-child {
+	border: 0;
+}
+
+.tab-cell {
+	float: left;
+	padding: 0.3% 1% 0 1%;
+	text-align: center;
+	height: 100%;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.map-preview {
+	margin: 1%;
+	box-sizing: border-box;
+	width: 95%;
+	height: 50%;
+}
+
+.map {
+	border: 1px solid #ccc;
+	width:100%;
+	height:100%;
+}
+
+.team-data {
+	text-align: left;
+}
+
+.team-data-label {
+	font-size: 110%;
+}
+
+.team-caption {
+	font-size: 130%;
+	font-weight: bold;
+	max-width: 200px;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.team-data-value {
+	font-style: italic;
+}
+
+.log-box {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	border-left: 1px solid #ccc;
+	color: white;
+	padding-left: 3%;
+	font-size: 10px;
+}
+
+.input-group {
+	margin-bottom: 25px;
+}

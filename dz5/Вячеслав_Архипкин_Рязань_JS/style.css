@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60vw;
+    height: 95vh;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+.parent {
+    flex: 1; 
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    border-top: 1px solid white; 
+    border-bottom: 1px solid white; 
+    text-align: left;
+    color: white;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    border: 1px solid white;
+    display: flex;
+    align-items: stretch;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#map {
+    flex: 1;
+    width: 100%;
+    height: 99.8%;
+}
+
+#progressBar {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+textarea {
+    background-color: gray;
+    text-align: left;
+    color: white;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.boldText {
+    font-weight:bold;
+    font-size: 20px;
+}
+
+.boldItalicText {
+    font-weight:bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.btnG {
+    background-color: green;
+    color: black; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 5px;
+}
+
+.btnG:hover {
+    background-color: white;
+    color: green; 
+}
+
+.btnB {
+    background-color: rgba(98, 98, 243, 0.993);
+    color: black; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 5px;
+}
+
+.btnB:hover {
+    background-color: white;
+    color: blue; 
+}
+
+.btnR {
+    background-color: red;
+    color: black; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 5px;
+}
+
+.btnR:hover {
+    background-color: white;
+    color: red; 
+}
